@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAC-MOVIES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f7fb471b65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegacion">
+        <a class="anclaLogo" href="#">
+          <span>📽️ CAC-Movies</span>
+        </a>
+        <ul class="listaNav">
+          <li class="listaItem">
+            <a class="linkNav" href="#tendencias">Tendencias</a>
+          </li>
+          <li class="listaItem">
+            <a class="linkNav" href="./pages/register.html">Registrarse</a>
+          </li>
+
+          <li class="listaItem">
+            <a class="linkNav iniciarSesion" href="./pages/login.html"
+              >Iniciar Sesión</a
+            >
+          </li>
+
+          <li>
+            <a class="botonApi" href="./pages/apiView.html">
+              Conexión con API
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="main">
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        class="sectionPrincipal"
+      >
+        <h1 class="tituloPrincipal">
+          Películas y series ilimitadas <br />
+          en un solo lugar
+        </h1>
+        <h2 class="subtituloPrincipal">
+          Disfruta donde quieras. <br />
+          Cancela en cualquier momento.
+        </h2>
+        <a class="botonRegistrarse" href="./pages/register.html">Registrate</a>
+      </section>
+      <section
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        class="buscadorPrincipal"
+      >
+        <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+        <form class="buscadorPeliculas">
+          <input class="inputBuscador" type="text" placeholder="Buscar..." />
+          <input class="botonBuscador" type="submit" value="Buscar" />
+        </form>
+      </section>
+      <hr />
+      <section
+        id="tendencias"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        class="peliculasTendencia"
+      >
+        <h3 class="tituloSection">Las tendencias de hoy</h3>
+        <div class="peliculas">
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/blackPhonePoster.jpg"
+                alt="The Black Phone"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>The Black Phone</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/batmanPoster.jpg"
+                alt="Batman: The Dark Knight "
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>The Dark Knight</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/panslabPoster.jpg"
+                alt="Pan's Labyrinth"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Pan's Labyrinth</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/interstellarPoster.jpg"
+                alt="Interstellar"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Interstellar</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/lalalandPoster.jpg"
+                alt="La La Land"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>La La Land</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/hotelBudapestPoster.jpg"
+                alt="The Grand Budapest Hotel"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>The Grand Budapest Hotel</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/inceptionPoster.jpg"
+                alt="Inception"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Inception</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/theConjuringPoster.jpg"
+                alt="The Conjuring"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>The Conjuring</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/lifeOfPiPoster.jpg"
+                alt="Life Of Pi"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Life Of Pi</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/nemoPoster.jpg"
+                alt="Finding Nemo"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Finding Nemo</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/WhiplashPoster.jpg"
+                alt="Whiplash"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>Whiplash</h4>
+              </div>
+            </div>
+          </a>
+          <a href="./pages/details.html">
+            <div class="pelicula">
+              <img
+                class="imgTendencia"
+                src="./images/movies/shiningPoster.jpg"
+                alt="The Shinning"
+                loading="lazy"
+              />
+
+              <div class="tituloPelicula">
+                <h4>The Shinning</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <button class="boton anterior">Anterior</button>
+        <button class="boton siguiente">Siguiente</button>
+      </section>
+      <hr />
+      <section
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+        class="peliculasAclamadas"
+      >
+        <h3 class="tituloSection">Las más aclamadas</h3>
+        <div class="aclamadas">
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada1.jpg"
+              alt="aclamada1"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada2.jpg"
+              alt="aclamada2"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada3.jpg"
+              alt="aclamada3"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada4.jpg"
+              alt="aclamada4"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada5.jpg"
+              alt="aclamada5"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada6.jpg"
+              alt="aclamada6"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada8.jpg"
+              alt="aclamada7"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada7.jpg"
+              alt="aclamada8"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada9.jpg"
+              alt="aclamada9"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada10.jpg"
+              alt="aclamada10"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada11.jpg"
+              alt="aclamada11"
+              loading="lazy"
+            />
+          </div>
+          <div class="peliculaItem">
+            <img
+              class="imgAclamada"
+              src="./images/aclamadas/aclamada12.jpg"
+              alt="aclamada12"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="navegacion">
+        <ul class="listaNav">
+          <li class="listaItem">
+            <a class="linkNav" href="">Términos y condiciones</a>
+          </li>
+          <li class="listaItem">
+            <a class="linkNav" href="">Preguntas frecuentes</a>
+          </li>
+          <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+          <li class="listaItem">
+            <a class="linkNav administradorPeliculas" href=""
+              >Administrador Peliculas</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a href="#main" class="flechaArriba">
+        <img src="./images/icons/upIcon.png" alt="Up website" />
+      </a>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      document
+        .querySelector(".buscadorPeliculas")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const inputBuscador = document.querySelector(".inputBuscador");
+          buscarPeliculas(inputBuscador.value);
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
